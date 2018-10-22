@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+  <header>
+    <h1>News</h1>
+    <select id="sourceSelector"></select>
+  </header>
+  <main></main>
+  <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDVTQKfAt6quPhRTwJ2JIDfD29RBU1bTmo",
+      authDomain: "news-87c0a.firebaseapp.com",
+      databaseURL: "https://news-87c0a.firebaseio.com",
+      projectId: "news-87c0a",
+      storageBucket: "",
+      messagingSenderId: "108911478437"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="app.js">
+  </script>
+</body>
+
+</html>
